@@ -1,0 +1,25 @@
+{
+  "mode": "rules",
+  "split": "formal_test",
+  "cases": 50,
+  "correct": 16,
+  "accuracy": 0.32,
+  "run_errors": 0,
+  "abstentions": 40,
+  "abstention_rate_all_attempts": 0.8,
+  "known_violations": 22,
+  "violations_passed": 0,
+  "violations_flagged": 7,
+  "nonabstained_correct": 10,
+  "nonabstained_cases": 10,
+  "known_cost_usd": 0.0,
+  "cost_records_missing": 0,
+  "majority_class_accuracy": 0.44,
+  "confusion_counts": {
+    "Pass -> Insufficient evidence": 19,
+    "Pass -> Pass": 3,
+    "Flag -> Flag": 7,
+    "Flag -> Insufficient evidence": 15,
+    "Insufficient evidence -> Insufficient evidence": 6
+  }
+}

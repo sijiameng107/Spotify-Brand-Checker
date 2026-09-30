@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+.venv/
+.ipynb_checkpoints/
+local_runs/
+spotify_formal_results/
+Spotify_Formal_Test_Results.zip

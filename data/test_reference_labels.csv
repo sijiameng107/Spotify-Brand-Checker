@@ -1,0 +1,51 @@
+Case_ID,Category,Expected_Decision,Relevant_Rule_IDs,Label_Rationale,Review_Status,Reviewer
+T01,Clear compliant,Pass,R01,"The explicit installation state selects the applicable rule, and the full link label matches an allowed option.",Verified,Meng Sijia
+T02,Clear compliant,Pass,R01,"The explicit installation state selects the applicable rule, and the full link label matches an allowed option.",Verified,Meng Sijia
+T03,Clear compliant,Pass,R01,"The explicit installation state selects the applicable rule, and the full link label matches an allowed option.",Verified,Meng Sijia
+T04,Clear compliant,Pass,R01,"The explicit installation state selects the applicable rule, and the full link label matches an allowed option.",Verified,Meng Sijia
+T05,Clear compliant,Pass,R01,"The explicit installation state selects the applicable rule, and the full link label matches an allowed option.",Verified,Meng Sijia
+T06,Clear compliant,Pass,R02,"The explicit installation state selects the applicable rule, and the full link label matches an allowed option.",Verified,Meng Sijia
+T07,Clear compliant,Pass,R02,"The explicit installation state selects the applicable rule, and the full link label matches an allowed option.",Verified,Meng Sijia
+T08,Clear compliant,Pass,R02,"The explicit installation state selects the applicable rule, and the full link label matches an allowed option.",Verified,Meng Sijia
+T09,Clear compliant,Pass,R03; R04,The distinct name is separate from the permitted compatibility description.,Verified,Meng Sijia
+T10,Clear compliant,Pass,R03; R04,The name is distinct and the description makes no Spotify endorsement claim.,Verified,Meng Sijia
+T11,Clear compliant,Pass,R03; R04,A factual functional description is not a claim of Spotify endorsement.,Verified,Meng Sijia
+T12,Clear compliant,Pass,R03; R04,The name is distinct and the description explicitly denies affiliation and endorsement.,Verified,Meng Sijia
+T13,Clear compliant,Pass,R03; R04,Neither the distinct name nor its functional description claims endorsement.,Verified,Meng Sijia
+T14,Clear compliant,Pass,R03; R04,A compatibility description outside the name does not assert official approval.,Verified,Meng Sijia
+T15,Clear compliant,Pass,R03; R04,"The developer describes its own design and intended users, without attributing approval to Spotify.",Verified,Meng Sijia
+T16,Clear compliant,Pass,R03; R04,Community development and audience targeting do not imply Spotify endorsement.,Verified,Meng Sijia
+T17,Clear compliant,Pass,R03; R04,A factual API-use statement does not itself claim official endorsement.,Verified,Meng Sijia
+T18,Clear compliant,Pass,R03; R04,The distinct name and generic function statement do not use Spotify as the app name or claim endorsement.,Verified,Meng Sijia
+T19,Clear compliant,Pass,R03; R04,The copy explains compatibility and independent development.,Verified,Meng Sijia
+T20,Clear compliant,Pass,R03; R04,The wording identifies the audience and expressly separates authorship from Spotify.,Verified,Meng Sijia
+T21,Clear non-compliant,Flag,R01,"The applicable installation state is explicit, but the full label differs from the options specified by the rule.",Verified,Meng Sijia
+T22,Clear non-compliant,Flag,R01,"The applicable installation state is explicit, but the full label differs from the options specified by the rule.",Verified,Meng Sijia
+T23,Clear non-compliant,Flag,R01,"The applicable installation state is explicit, but the full label differs from the options specified by the rule.",Verified,Meng Sijia
+T24,Clear non-compliant,Flag,R01,"The applicable installation state is explicit, but the full label differs from the options specified by the rule.",Verified,Meng Sijia
+T25,Clear non-compliant,Flag,R01,"The applicable installation state is explicit, but the full label differs from the options specified by the rule.",Verified,Meng Sijia
+T26,Clear non-compliant,Flag,R02,"The applicable installation state is explicit, but the full label differs from the options specified by the rule.",Verified,Meng Sijia
+T27,Clear non-compliant,Flag,R02,"The applicable installation state is explicit, but the full label differs from the options specified by the rule.",Verified,Meng Sijia
+T28,Clear non-compliant,Flag,R02,"The applicable installation state is explicit, but the full label differs from the options specified by the rule.",Verified,Meng Sijia
+T29,Clear non-compliant,Flag,R03,The complete app name contains Spotify; an independence statement does not remove that naming violation.,Verified,Meng Sijia
+T30,Clear non-compliant,Flag,R03,The name incorporates Spotify even though the separate description denies endorsement.,Verified,Meng Sijia
+T31,Clear non-compliant,Flag,R03,The complete registered name incorporates Spotify.,Verified,Meng Sijia
+T32,Clear non-compliant,Flag,R04,The description directly claims official approval.,Verified,Meng Sijia
+T33,Clear non-compliant,Flag,R04,The description attributes a recommendation to Spotify.,Verified,Meng Sijia
+T34,Clear non-compliant,Flag,R04,The description claims Spotify certification.,Verified,Meng Sijia
+T35,Clear non-compliant,Flag,R04,The description represents the app as an official Spotify companion.,Verified,Meng Sijia
+T36,Clear non-compliant,Flag,R04,The description claims joint development with Spotify.,Verified,Meng Sijia
+T37,Clear non-compliant,Flag,R04,The description explicitly asserts Spotify endorsement.,Verified,Meng Sijia
+T38,Clear non-compliant,Flag,R04,The description uses an approval metaphor to assert endorsement.,Verified,Meng Sijia
+T39,Clear non-compliant,Flag,R04,The description asserts a Spotify partnership.,Verified,Meng Sijia
+T40,Clear non-compliant,Flag,R04,The description asserts official selection by Spotify.,Verified,Meng Sijia
+T41,Borderline,Pass,R04,The negation denies approval; matching approval keywords alone would be incorrect.,Verified,Meng Sijia
+T42,Borderline,Pass,R04,"The question is answered with a denial, so the excerpt does not claim Spotify authorship or endorsement.",Verified,Meng Sijia
+T43,Borderline,Flag,R03,The disclaimer does not cure the explicit use of Spotify in the registered name.,Verified,Meng Sijia
+T44,Borderline,Flag,R04,"The first clause denies authorship, but the second still asserts endorsement contradicted by the context.",Verified,Meng Sijia
+T45,Borderline,Insufficient evidence,R01; R02,The correct link wording depends on the unknown installation state.,Verified,Meng Sijia
+T46,Borderline,Insufficient evidence,R01; R02,Both the role of the text and the installation state must be established.,Verified,Meng Sijia
+T47,Borderline,Insufficient evidence,R03; R04,The reviewer needs to distinguish the registered name from separate compatibility wording.,Verified,Meng Sijia
+T48,Borderline,Insufficient evidence,R04,The claimed exception needs verification; missing proof alone does not establish that the claimed permission does not exist.,Verified,Meng Sijia
+T49,Borderline,Insufficient evidence,R04,The approving party and nature of approval are ambiguous; request clarification instead of assuming Spotify endorsement.,Verified,Meng Sijia
+T50,Borderline,Insufficient evidence,R03; R04,"The supplied name can be checked, but the requested description review cannot be completed without the description.",Verified,Meng Sijia

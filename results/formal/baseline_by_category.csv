@@ -1,0 +1,4 @@
+mode,category,cases,correct,accuracy,run_errors,abstentions,abstention_rate_all_attempts,known_violations,violations_passed,violations_flagged,nonabstained_correct,nonabstained_cases,known_cost_usd,cost_records_missing,majority_class_accuracy,confusion_counts
+rules,Borderline,10,7,0.7,0,9,0.9,2,0,1,1,1,0.0,0,0.6,"{""Pass -> Insufficient evidence"": 2, ""Flag -> Flag"": 1, ""Flag -> Insufficient evidence"": 1, ""Insufficient evidence -> Insufficient evidence"": 6}"
+rules,Clear compliant,20,3,0.15,0,17,0.85,0,0,0,3,3,0.0,0,1.0,"{""Pass -> Insufficient evidence"": 17, ""Pass -> Pass"": 3}"
+rules,Clear non-compliant,20,6,0.3,0,14,0.7,20,0,6,6,6,0.0,0,1.0,"{""Flag -> Flag"": 6, ""Flag -> Insufficient evidence"": 14}"
