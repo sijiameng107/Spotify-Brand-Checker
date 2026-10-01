@@ -1,4 +1,10 @@
-"""Recompute reported scores from saved outputs, without network access."""
+"""Offline verification of the frozen formal experiment.
+
+Checks prompt/data identity, recomputes final decisions and all-attempt costs,
+reruns baseline/retrieval, and checks the request-item field boundary. Assertions
+signal inconsistencies; this does not independently establish label correctness.
+Inputs are repository archives; output is a console summary, with no network calls.
+"""
 import csv
 import json
 from pathlib import Path

@@ -1,17 +1,21 @@
 {
   ".gitignore": "ea1e10b3348765bf59187811b22df520cedf604b445f506c9698781af9226bac",
-  "README.md": "1e398ad074e1da0f6a4a61a8248d60af80418a74bff740ddffa01efe6534e646",
-  "checker.py": "df281386680f81da743254334c541bbf83ac18553d9baa8d03d748ef6181e3e2",
+  "README.md": "ef8e3863ca177909105bafd570df7241f10e20ba6cb4ec403fbd0e98d1dd1c93",
+  "checker.py": "8189dd1f72b507f72c275a82c314536d35eb39e776e3e2b7014f60f5406841eb",
+  "data/README.md": "1b52ccda25e8a3f122051d9b04487ec35f602649719d073d4e156c185a9804bf",
   "data/brand_rules.csv": "28f2ce7c9d98d2e1cb6abd653c093a0f8eafd8ffeeba445654f228df162c5fed",
   "data/development_cases.csv": "27cc6c42962dd428f76294b58f8de2540d0e680e2091816bcc7dfeb84e49476d",
   "data/test_inputs.csv": "bee6c652cfff0e69152efbad2da287b71c94f79641a75a5ea9908c3e543c9f41",
   "data/test_reference_labels.csv": "c29a51efcfe879532570b771559849deec6897ae055c6305d783cc17a41b5301",
-  "demo.py": "8f8771a75f9f7d270b3a9f46b0e86820d597dc5a374603b5a1ebc2d7738a6d54",
+  "demo.py": "ea9f4932525cd9c715693b5c8d780c220fb26df872fa0101fec0e7c46c4a7bdc",
+  "docs/Code_Map.md": "06a775af6f64fc24eee7d573a7be53a36cf9b92cabedf7015cfb883d52ae1415",
   "docs/Course_Coverage.md": "c865b835172315d97c5c10da30df1e98a53495b1add2cd2dcc69f71c29bc15e9",
-  "docs/Demo_Script.md": "221d1d612556e90bb5167dbbe98d3ebaccce96c6a3e35deb4bbcf79a77e4166c",
   "docs/Evidence_Review_Completed.xlsx": "3cb8aff7cffd617c56eef40908b14c4752da0e84dc0a7191a98a115ca8f8bfc0",
   "docs/Evidence_Review_Method.md": "3c2762276ee91304acf74629ab091f7a40426886495daa99d165ddeb77a9fe18",
-  "docs/Project_Report.md": "e6eb346f7c7cd82160c729ac88f04d51aa527701e24c3593f2b6c341eba81f65",
+  "docs/Product_Overview.md": "c62975bac49e3a072623f7e8f32f703b2d4b70fd923c6b1222ee3f44d4086f90",
+  "docs/Project_Report.docx": "4f31185eabacf256ed74c23219cf36b32ab7da68a0c03ebeb11c1bc553347f95",
+  "docs/Project_Report.md": "503cb7835df1f059f4099897c2ce3c18992d4f74d09ab5e542761abb85f59950",
+  "evals/README.md": "61991ca52676e7c5abb3ea2a34d82f8e0653ace37f4323dc226b82f55907db71",
   "notebooks/Spotify_Formal_Test.ipynb": "76aa762dbf5f93920ae302baf3a306e7269fc0c6551b8ea76671a3d41c015f4e",
   "requirements.txt": "4fdf1463f5b3d7f2717d873c85410842b783db9ec07864524282361c7c928be8",
   "results/development/attempts.jsonl": "e9996a615a0541a87bb8960157ab45f42f81c3ae15366b01b5d388711089f810",
@@ -32,5 +36,5 @@
   "results/formal/baseline_formal.csv": "aab62302a004ed7d2f297ace4028a6ba85bf3064fe67226d654ab3b599c4029b",
   "results/formal/baseline_summary.json": "a5423bc76fc0cf5de8f4b86501d5cb45b55df32541d8bfdf58db1b5173a386bf",
   "results/formal/retrieval_formal.csv": "5b0e137e2d6874d899c115d70baed1a5c7accdf6cad4a60728e1e6a92d481761",
-  "verify_results.py": "ca42e1b2eb80db568ce7217f8194c6c25a81bef974f334c3b4c0f6e2a3dc2410"
+  "verify_results.py": "676e89e8b9972a73a846cd2146c583309f5324b7ffbd685b94244d731cc3580f"
 }

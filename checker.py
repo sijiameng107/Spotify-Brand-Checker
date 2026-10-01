@@ -1,4 +1,12 @@
-"""Small, auditable brand-checking prototype. Development evidence only."""
+"""Frozen Spotify guideline classification and evaluation core.
+
+Input: rule records plus Content/Context case fields. Output: structured decisions,
+source-linked evidence, attempt logs and locally computed reference metrics.
+The baseline and lexical retrieval are local; api_attempt alone contacts OpenRouter.
+run_comparison manages experiment identity, bounded validation retries and artifacts.
+The effective v2 SYSTEM is assembled below before callers invoke any functions.
+See docs/Code_Map.md and evals/README.md for module boundaries and scoring details.
+"""
 import csv, json, re, math, time, hashlib
 from pathlib import Path
 from collections import Counter

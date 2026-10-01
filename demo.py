@@ -1,4 +1,9 @@
-"""Display a saved formal result, or explicitly request a new paid demonstration."""
+"""Inspect one archived case or explicitly request a new paid inference.
+
+Reads the frozen experiment and selected case, prints input/reference/result, and
+uses checker.api_attempt only when --live is supplied. Keys use a hidden prompt
+or environment variable. New attempts go to ignored local_runs, never the archive.
+"""
 import argparse
 import getpass
 import json
@@ -30,7 +35,7 @@ def main():
         row = checker.api_attempt(case,experiment['rules'],experiment['model'],key,args.mode,log,1)
         if row.get('retryable') and not row.get('fatal'):
             row = checker.api_attempt(case,experiment['rules'],experiment['model'],key,args.mode,log,2,row.get('error'))
-        label = 'NEW LIVE DEMONSTRATION — separate from reported formal results'
+        label = 'NEW LIVE INFERENCE — separate from reported formal results'
     else:
         rows = [json.loads(s) for s in (folder/'attempts.jsonl').read_text().splitlines() if s.strip()]
         row = next(r for r in reversed(rows) if r['case_id']==args.case and r['mode']==args.mode)
