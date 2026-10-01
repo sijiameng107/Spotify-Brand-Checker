@@ -2,7 +2,7 @@
 
 ## Problem and scope
 
-Reviewers need to identify wording that conflicts with brand requirements while explaining why it should be revised. This project tests a narrow decision-support tool for Spotify partner-integration link labels and registered third-party application names and descriptions. It returns Pass, Flag or Insufficient evidence, accompanied by a reason and available rule evidence. It does not assess general brand tone, visual design or every Spotify policy. Passing this checker is not approval by Spotify.
+Reviewers need to check whether AI-generated advertising copy follows brand requirements and identify which wording needs revision. This project addresses that broader need through a scoped Spotify case study. This project tests a narrow decision-support tool for Spotify partner-integration link labels and registered third-party application names and descriptions. It returns Pass, Flag or Insufficient evidence, accompanied by a reason and available rule evidence. It does not assess general brand tone, visual design or every Spotify policy. Passing this checker is not approval by Spotify.
 
 The intended user is a reviewer checking draft copy before publication. A false pass is the costlier error because non-compliant wording could proceed unchecked. The tool therefore supports review rather than replacing final human approval. No review-time saving is claimed: model latency does not measure how much time a person saves.
 
@@ -47,5 +47,7 @@ Mean per-case retrieval recall at two was 83%. Correct decisions sometimes lacke
 Recorded API cost per content item was USD 0.000137442 for all rules and USD 0.000154890 for retrieval. Total formal-run cost was USD 0.0146166. These figures exclude development, hosting, maintenance and human review. Retrieval was more expensive in this run despite supplying fewer rules; the available records do not establish the cause. Mean request times were approximately 1.69 and 1.38 seconds, respectively.
 
 The prototype demonstrates inexpensive, traceable decision support within a narrow scope. It is not ready for unattended approval because a costly false pass remains and evidence coverage is incomplete. Operational use should preserve final human review, minimize sensitive input, protect API credentials, and track guideline changes. Future work should test better separation of submitted claims from contextual facts and more complete rule coverage on a new evaluation set. These improvements have not been implemented or validated in the reported run.
+
+The project's practical contribution is to connect potentially non-compliant wording with explicit brand requirements and surface uncertainty for review. Within the four-rule scope, this provides a structured first-pass check for AI-generated copy and supports informed revision before publication.
 
 Source basis: Spotify Design Guidelines, https://developer.spotify.com/documentation/design; frozen four-rule project corpus; formal experiment 13c744bb98422507; completed evidence-review records.
