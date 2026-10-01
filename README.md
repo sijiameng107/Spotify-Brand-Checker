@@ -4,6 +4,8 @@ PE6201 End-of-Course Project — Meng Sijia
 
 A scoped text checker for Spotify partner-integration links and registered third-party app names/descriptions. It returns **Pass**, **Flag**, or **Insufficient evidence** with available rule evidence. It supports a reviewer; it does not grant Spotify approval or assess every brand requirement.
 
+The project addresses the challenge of checking AI-generated advertising copy against brand requirements through this scoped Spotify case study. Its practical value is to flag potential violations, present relevant rule evidence and surface uncertainty so reviewers can make informed revisions before publication. The evaluation covers the four selected rules, not general advertising compliance.
+
 ## Recorded results
 
 | Method | Correct | Violations passed | Abstentions | Formal API cost (USD) |
